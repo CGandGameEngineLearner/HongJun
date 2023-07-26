@@ -1,0 +1,7 @@
+# The ConnectSystem in Unreal Engine is client.
+# The SimulatorConnector in python is server.
+# 在虚幻引擎中的ConnectSystem是客户端
+# SimulatorConnector这边是服务端
+server:
+  host: 127.0.0.1
+  port: 3000
