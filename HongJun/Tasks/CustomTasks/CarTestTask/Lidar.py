@@ -86,6 +86,7 @@ if __name__ == "__main__":
     args = sys.argv
     args.pop(0)
 
+
     arg_parser = argparse.ArgumentParser("Lidar.py makes car move and gets Lidar data")
 
     arg_parser.add_argument('-save-to-disk', type=bool, help="save Lidar data to disk", default=False)
