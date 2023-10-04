@@ -14,6 +14,14 @@
 本项目必须使用**Python 3.8.10**版本
 配置开发环境前务必查看requirements.txt，并使用它来配置依赖库
 
+建议在命令行执行以下命令一键换pip源为中科大 因为本项目有部分依赖包只能在这个源下载到
+
+```powershell
+pip config set global.index-url https://pypi.mirrors.ustc.edu.cn/simple/
+```
+
+
+
 本项目与HongJun的模拟器端项目是配套使用的
 
 ## 架构说明

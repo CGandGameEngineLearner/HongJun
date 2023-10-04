@@ -8,5 +8,5 @@ setup(
     name='HongJun',
     version='0.1',
     packages=setuptools.find_packages(),
-    python_requires='==3.9.13',
+    python_requires='==3.8.10',
 )
