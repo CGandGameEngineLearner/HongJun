@@ -18,6 +18,7 @@ from sensor_msgs.msg import PointField
 from std_msgs.msg import Header
 from sensor_msgs import point_cloud2
 
+# 这里填入模拟器端的地址，WSL里面是这个地址，如果你的模拟器和Python这端都在一个平台，不在虚拟机，那么就写成空字符串
 HOST = '172.24.240.1'
 def pub_pointcloud(points):
     pc = PointCloud2()
