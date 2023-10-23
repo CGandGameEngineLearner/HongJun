@@ -135,7 +135,7 @@ def main():
             points = np.reshape(points, (int(points.shape[0] / 3), 3))
             # points[:, 1] = -points[:, 1]
             points[:, 0] = -points[:, 0]
-            points[:, 1] = -points[:, 1]
+            points[:, 1] = points[:, 1]
             points[:, 2] = -points[:, 2]
             num_temp = np.shape(points)[0]
             # print(num_temp)

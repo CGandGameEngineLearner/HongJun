@@ -13,11 +13,15 @@ sudo cp ./settings.json ~/Documents/AirSim/
 
 在本项目的CoSimulation目录下打开终端 输入以下命令启动ROS
 ```shell
-roslaunch rviz rviz -d co_sim.rviz
+roscore
+rviz -d co_sim.rviz
 ```
 再打开个终端，输入
 ```shell
 python3 main.py
 ```
-
 此时rviz内能显示图像即为成功
+再打开个终端输入以下命令开始录制
+```shell
+rosbag record -a
+```
