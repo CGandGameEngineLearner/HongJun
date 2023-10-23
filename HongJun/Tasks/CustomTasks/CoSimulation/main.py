@@ -93,14 +93,15 @@ def main():
     pointcloud_pub = rospy.Publisher('/co_sim_drone_points', PointCloud2, queue_size=10)
     pointcloud_tank_pub = rospy.Publisher('/co_sim_tank_points', PointCloud2, queue_size=10)
     pose_stamped_pub = rospy.Publisher('/drone_pose', PoseStamped, queue_size=10)
-
+    tank_pose_stamped_pub = rospy.Publisher('/tank_pose', PoseStamped, queue_size=10)
 
     rate = rospy.Rate(25.0)
 
     while not rospy.is_shutdown():
 
         drone_pose=client.simGetVehiclePose(vehicle_name="drone_1")
-
+        tank_pose=client.simGetVehiclePose(vehicle_name="tank")
+        publishPose(tank_pose_stamped_pub,tank_pose)
         publishPose(pose_stamped_pub,drone_pose)
         # get the lidar data
         lidarData = client.getLidarData(lidar_name='LidarCustom',vehicle_name='drone_1')
