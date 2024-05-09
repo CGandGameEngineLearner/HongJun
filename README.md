@@ -11,6 +11,7 @@
 ## 注意事项
 本项目必须使用**Python 3.8.10**版本
 配置开发环境前务必查看requirements.txt，并使用它来配置依赖库
+把settings_无人机突防.json复制到User/Documents/AirSim目录下，并改名为settings.json覆盖原先的settings.json
 
 **如果您在使用此项目时遇到难以解决的问题，或者需要在此基础上订制新的功能、资产等，可以编辑邮件并发送到`lifesize1@qq.com`，进行付费咨询。**
 > 关于付费咨询的说明：
