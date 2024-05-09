@@ -1,0 +1,96 @@
+{
+  "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/main/docs/settings.md",
+  "SettingsVersion": 1.2,
+  "SimMode":"Multirotor",
+  "PawnPaths": {
+    "BlackDrone": {
+      "PawnBP": "Class '/Game/CoSimulation/Vehicles/FlyingPawn/Drone/Blueprints/BP_QuadcopterDrone1.BP_QuadcopterDrone1_C'"
+    }
+  },
+  "Vehicles": {
+    "UAV10": {
+      "VehicleType": "SimpleFlight",
+      "PawnPath": "BlackDrone",
+      "X": 24, "Y": 0, "Z": 0,
+      "Yaw": 0
+    },
+    "UAV9": {
+      "VehicleType": "SimpleFlight",
+      "PawnPath": "BlackDrone",
+      "X": 20, "Y": 5, "Z": 0,
+      "Yaw": 0
+    },
+    "UAV8": {
+      "VehicleType": "SimpleFlight",
+      "PawnPath": "BlackDrone",
+      "X": 16, "Y": 0, "Z": 0,
+      "Yaw": 0
+    },
+    "UAV7": {
+      "VehicleType": "SimpleFlight",
+      "PawnPath": "BlackDrone",
+      "X": 12, "Y": 5, "Z": 0,
+      "Yaw": 0
+    },
+    "UAV6": {
+      "VehicleType": "SimpleFlight",
+      "PawnPath": "BlackDrone",
+      "X": 8, "Y": 0, "Z": 0,
+      "Yaw": 0
+    },
+    "UAV5": {
+      "VehicleType": "SimpleFlight",
+      "PawnPath": "BlackDrone",
+      "X": 4, "Y": 5, "Z": 0,
+      "Yaw": 0
+    },
+      "UAV4": {
+        "VehicleType": "SimpleFlight",
+        "PawnPath": "BlackDrone",
+      "X": 0, "Y": 0, "Z": 0,
+      "Yaw": 0
+    },
+    "UAV3": {
+      "VehicleType": "SimpleFlight",
+      "PawnPath": "BlackDrone",
+      "X": -4, "Y": 5, "Z": 0,
+      "Yaw": 0
+    },
+      "UAV2": {
+        "VehicleType": "SimpleFlight",
+        "PawnPath": "BlackDrone",
+      "X": -8, "Y": 0, "Z": 0,
+      "Yaw": 0
+    },
+    "UAV1": {
+      "VehicleType": "SimpleFlight",
+      "PawnPath": "BlackDrone",
+      "X": -12, "Y": 5, "Z": 0,
+      "Yaw": 0
+    },
+    "UAV11": {
+      "VehicleType": "SimpleFlight",
+      "PawnPath": "BlackDrone",
+      "X": -222, "Y": 8, "Z": 0,
+      "Yaw": 0
+    },
+    "UAV12": {
+      "VehicleType": "SimpleFlight",
+      "PawnPath": "BlackDrone",
+      "X": -222, "Y": 2, "Z": 0,
+      "Yaw": 0
+    },
+    "UAV13": {
+      "VehicleType": "SimpleFlight",
+      "PawnPath": "BlackDrone",
+      "X": -222, "Y": -4, "Z": 0,
+      "Yaw": 0
+    },
+    "UAV14": {
+      "VehicleType": "SimpleFlight",
+      "PawnPath": "BlackDrone",
+      "X": -222, "Y": -10, "Z": 0,
+      "Yaw": 0
+    }
+  }
+}
