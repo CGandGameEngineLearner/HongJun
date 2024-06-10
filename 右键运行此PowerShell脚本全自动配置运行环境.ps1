@@ -1,6 +1,8 @@
 # 定义 Python 安装程序的下载链接和文件名 通过华为云下载python 3.8.10安装包
 $installerUrl = "https://mirrors.huaweicloud.com/python/3.8.10/python-3.8.10-amd64.exe"
 $installerFile = "python-3.8.10-amd64.exe"
+# 检查是否有3.8.10版本
+$python3810Installed = $false
 
 # 定义安装路径
 $userInstallPath = "$env:LOCALAPPDATA\Programs\Python\Python38"
@@ -9,8 +11,7 @@ try
     # 获取当前Windows用户所有已安装的Python版本
     $pythonVersions = Get-ChildItem -Path "HKCU:\SOFTWARE\Python\PythonCore" | ForEach-Object { $_.PSChildName }
 
-    # 检查是否有3.8.10版本
-    $python3810Installed = $false
+    
     foreach ($version in $pythonVersions)
     {
         Write-Host "检测到本机已有 Python "+$version
@@ -21,18 +22,25 @@ try
         }
     }
 
-    # 输出结果
-    if ($python3810Installed)
-    {
-        Write-Host "Python 3.8.10 已安装在计算机上。"
-    }
-    else
-    {
-        Write-Host "Python 3.8.10 未在计算机上安装，准备自动安装Python 3.8.10。"
-    }
+   
+}
+catch {
+    Write-Host "An error occurred: $_"
+}
 
-    Write-Host "正在加载中，请耐心等待，切勿关闭此窗口！"
+# 输出结果
+if ($python3810Installed)
+{
+    Write-Host "Python 3.8.10 已安装在计算机上。"
+}
+else
+{
+    Write-Host "Python 3.8.10 未在计算机上安装，准备自动安装Python 3.8.10。"
+}
 
+Write-Host "正在加载中，请耐心等待，切勿关闭此窗口！"
+
+try{
     # 如果没安装Python 3.8.10 则自动安装
     if ($python3810Installed -eq $false)
     {
