@@ -51,7 +51,7 @@ try{
         # 安装 Python
         Write-Host "正在安装 Python，请稍候..."
         # 运行 Python 3.8.10 安装程序
-        Start-Process -FilePath $installerFileName -ArgumentList "/quiet", "InstallAllUsers=0", "PrependPath=1", "DefaultJustForMeTargetDir=`"$userInstallPath`"" -Wait
+        Start-Process -FilePath $installerFile -ArgumentList "/quiet", "InstallAllUsers=0", "PrependPath=1", "DefaultJustForMeTargetDir=`"$userInstallPath`"" -Wait
 
         # 将 Python 3.8.10 添加到系统环境变量中
         $env:Path += ";$userInstallPath"
@@ -85,7 +85,7 @@ try{
     # 通过jupyter打开
     # jupyter notebook ./src/main.ipynb
 
-    Write-Host "运行本项目中，切勿关闭此窗口！"
+    # Write-Host "运行本项目中，切勿关闭此窗口！"
 }
 catch {
     Write-Host "An error occurred: $_"
