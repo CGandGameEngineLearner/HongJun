@@ -9,7 +9,7 @@
 **该项目已被清华大学猛狮无人驾驶实验室和南京航空航天大学无人机实验室的研究生团队采用，并于人工智能仿真训练，并发表相关科研论文**
 **本项目与HongJun的模拟器端项目是配套使用的,模拟器端项目链接：[HongJun模拟器](https://github.com/CGandGameEngineLearner/HongJunSimulator)**
 ## 注意事项
-本项目必须使用**Python 3.8.10**版本
+本项目必须使用**Python 3.9.13**版本
 配置开发环境前务必查看requirements.txt，并使用它来配置依赖库
 把settings_无人机突防.json复制到User/Documents/AirSim目录下，并改名为settings.json覆盖原先的settings.json
 
