@@ -2,4 +2,5 @@ Env
 build
 *egg-info
 *.egg
+*.exe
 /venv/
