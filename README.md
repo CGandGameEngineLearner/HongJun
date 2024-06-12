@@ -23,7 +23,7 @@ This project is used in conjunction with the HongJun simulator end project. Link
 配置开发环境前务必查看requirements.txt，并使用它来配置依赖库
 把settings_无人机突防.json复制到User/Documents/AirSim目录下，并改名为settings.json覆盖原先的settings.json
 
-**如果您在使用此项目时遇到困难，可以编辑邮件并发送到`lifesize1@qq.com`进行咨询，如果你愿意向联合国儿童基金会捐款，或者您本人已有了任何合法的国际慈善项目的捐款证明，我将免费帮您解决问题。**
+**如果您在使用此项目时遇到困难，可以提issue或编辑邮件并发送到`lifesize1@qq.com`进行咨询，如果你愿意向联合国儿童基金会捐款，或者您本人已有了任何合法的国际慈善项目的捐款证明，我将免费帮您解决问题。**
 
 ## Notes
 This project must use Python version 3.9.13.
