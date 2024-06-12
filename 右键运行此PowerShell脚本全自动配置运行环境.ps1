@@ -5,7 +5,7 @@ $installerFile = "python-3.9.13-amd64.exe"
 $python3913Installed = $false
 
 # 定义安装路径
-$userInstallPath = "$env:LOCALAPPDATA\Programs\Python\Python38"
+$userInstallPath = "$env:LOCALAPPDATA\Programs\Python\Python3913"
 try
 {
     # 获取当前Windows用户所有已安装的Python版本
