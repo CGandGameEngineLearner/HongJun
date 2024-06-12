@@ -23,7 +23,7 @@ This project is used in conjunction with the HongJun simulator end project. Link
 配置开发环境前务必查看requirements.txt，并使用它来配置依赖库
 把settings_无人机突防.json复制到User/Documents/AirSim目录下，并改名为settings.json覆盖原先的settings.json
 
-**如果您在使用此项目时遇到困难，可以提issue或编辑邮件并发送到`lifesize1@qq.com`进行咨询，如果你愿意向联合国儿童基金会捐款，或者您本人已有了任何合法的国际慈善项目的捐款证明，我将免费帮您解决问题。**
+**如果您在使用此项目时遇到困难，可以提`Issue`或编辑邮件并发送到`lifesize1@qq.com`进行咨询，如果你愿意向[联合国近东救济工程处](https://donate.unrwa.org/gaza/~my-donation)捐款，或者您本人已有了任何合法的国际慈善项目的捐款证明，我将免费帮您解决问题。**
 
 ## Notes
 This project must use Python version 3.9.13.
@@ -32,7 +32,7 @@ Before configuring the development environment, be sure to check the requirement
 
 Copy settings_无人机突防.json to the User/Documents/AirSim directory and rename it to settings.json to overwrite the original settings.json.
 
-**If you encounter difficulties when using this project, you can edit an email and send it to lifesize1@qq.com for consultation. If you are willing to donate to UNICEF or if you have any proof of a legitimate international charity project donation, I will help you solve the problem for free.**
+**If you have difficulties using this project, you can file an 'Issue' or edit the email and send it to the 'lifesize1@qq.com' for consultation, and if you are willing to donate to [UNRWA] (https://donate.unrwa.org/gaza/~my-donation), or if you have proof of donation to any legitimate international charity project, I will help you solve the problem free of charge.**
 ## 架构说明
 
 ![架构图](/illustration/ArchitectureDiagram.png)
