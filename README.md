@@ -32,7 +32,7 @@ Before configuring the development environment, be sure to check the requirement
 
 Copy settings_无人机突防.json to the User/Documents/AirSim directory and rename it to settings.json to overwrite the original settings.json.
 
-**If you have difficulties using this project, you can file an 'Issue' or edit the email and send it to the 'lifesize1@qq.com' for consultation, and if you are willing to donate to [UNRWA] (https://donate.unrwa.org/gaza/~my-donation), or if you have proof of donation to any legitimate international charity project, I will help you solve the problem free of charge.**
+**If you have difficulties using this project, you can file an 'Issue' or edit the email and send it to the 'lifesize1@qq.com' for consultation, and if you are willing to donate to [UNRWA](https://donate.unrwa.org/gaza/~my-donation), or if you have proof of donation to any legitimate international charity project, I will help you solve the problem free of charge.**
 ## 架构说明
 
 ![架构图](/illustration/ArchitectureDiagram.png)
