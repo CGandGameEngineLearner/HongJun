@@ -28,7 +28,9 @@ This project is used in conjunction with the HongJun simulator end project. Link
 > ~~关于付费咨询的说明：~~
 > ~~由于本项目作者是一个还没毕业正式工作的贫困生，空闲时间少，前来咨询此项目的人又比较多，所以对此项目开启付费咨询服务，请您谅解。~~
 
+
 **如果您在使用此项目时遇到困难，可以编辑邮件并发送到`lifesize1@qq.com`进行咨询，如果你愿意向联合国儿童基金会捐款，或者您本人已有了任何合法的国际慈善项目的捐款证明，我将免费帮您解决问题。**
+
 ## Notes
 This project must use Python version 3.9.13.
 
